@@ -22,7 +22,7 @@ There is a example code in BehaviorTreeTest.cs. Please see it.
  because saved tree data uses the string of enums. If you want to do, please change the name of enum member before you save the tree.
 -IEnumeratorを返さなきゃいけない理由はコルーチンにするため。n秒待つとかその関数内でいらないんだったらその関数の最後でyield return nullすればとりあえずok。
 
-<Remarks(for developer)>
+<Remarks(for my own)>
 -Node.name is used to represent its type of node. For example, if Node.name == "RootNode", then this node is a RootNode.
 
 -Behavior tree data you save will be put on "Assets/Resources/BehaviorTree". You can change this location by altering TreeSaveUtility/SaveTree().
