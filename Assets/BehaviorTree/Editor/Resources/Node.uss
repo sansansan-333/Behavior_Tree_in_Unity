@@ -1,0 +1,31 @@
+﻿ActionNode #title{
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+ConditionalNode #title{
+    background-color: rgba(255, 105, 180, 0.5);
+}
+
+ConditionalNode .unity-enum-field__label{
+    min-width: 10px;
+}
+
+SequenceNode #title{
+    background-color: rgba(205, 92, 92, 0.5);
+}
+
+SelectorNode #title{
+    background-color: rgba(135, 206, 235, 0.5);
+}
+
+RepeaterNode #title{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+RepeaterNode .unity-text-field__label{
+    min-width: 50px;
+}
+
+InverterNode #title{
+    background-color: rgba(143, 188, 139, 0.5);
+}
