@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea9247252aa7c425db07241944dedef8, type: 3}
+  m_Name: New Narrative
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - BaseNodeGuid: 4e8c788f-a7dc-432d-9ea7-08c6cda5cbf0
+    PortName: Next
+    TargetNodeGuid: 777d36e3-c68b-4a1f-8628-c004d56712eb
+  - BaseNodeGuid: 777d36e3-c68b-4a1f-8628-c004d56712eb
+    PortName: NODENODEO
+    TargetNodeGuid: bd01af40-9f50-4e68-b72e-d2f618375a97
+  DialogueNodeData:
+  - Guid: bd01af40-9f50-4e68-b72e-d2f618375a97
+    DialogueText: Dialogue Node
+    Position: {x: 494, y: 153}
+  - Guid: 777d36e3-c68b-4a1f-8628-c004d56712eb
+    DialogueText: AAA
+    Position: {x: 227, y: 156}
+  ExposedProperties:
+  - PropertyName: ASDF
+    PropertyValue: GHJL
+  - PropertyName: New String(1)
+    PropertyValue: New Value

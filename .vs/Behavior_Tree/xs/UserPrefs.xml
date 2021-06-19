@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{245E0EE9-83CF-E0AA-F286-396CC1EEB8F9}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BehaviorTree/ReadMe.txt">
+    <Files>
+      <File FileName="Assets/BehaviorTree/readme.txt" Line="13" Column="133" />
+      <File FileName="Assets/BehaviorTree/BehaviorTreeTest.cs" Line="25" Column="53" />
+      <File FileName="Assets/BehaviorTree/Editor/TreeSaveUtility.cs" Line="235" Column="92" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Behavior_Tree" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="BehaviorTree" expanded="True">
+                <Node name="Editor" expanded="True">
+                  <Node name="Resources" expanded="True" />
+                </Node>
+                <Node name="Runtime" expanded="True" />
+                <Node name="ReadMe.txt" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="d7d08025-ec4c-4ac9-b642-1a45d8540385" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5ec08700-4817-4219-bc55-f5aa944a2ee5" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

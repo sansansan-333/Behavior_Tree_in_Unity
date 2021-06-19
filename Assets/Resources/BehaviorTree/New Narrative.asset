@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8323727703dd749f79fbe81d3a46540e, type: 3}
+  m_Name: New Narrative
+  m_EditorClassIdentifier: 
+  NodeDatas:
+  - GUID: a6b8614d-e80b-49fe-b359-e266bdc6b94f
+    nodeType: RootNode
+    position: {x: 100, y: 100}
+    actionNodeData:
+      act: 
+    conditionalNodeData:
+      condition: 
+      value: 0
+    repeaterNodeData:
+      repeatCount: 0
+  - GUID: ccfccf93-00ac-4f0d-a771-17e9947e50c8
+    nodeType: SelectorNode
+    position: {x: 245, y: 110}
+    actionNodeData:
+      act: 
+    conditionalNodeData:
+      condition: 
+      value: 0
+    repeaterNodeData:
+      repeatCount: 0
+  - GUID: d49b377e-80a5-46a9-b9d0-9ead18419399
+    nodeType: ActionNode
+    position: {x: 470, y: 26}
+    actionNodeData:
+      act: OutputLog
+    conditionalNodeData:
+      condition: 
+      value: 0
+    repeaterNodeData:
+      repeatCount: 0
+  - GUID: 87fde282-05db-4d67-817f-e9bc870cf9f0
+    nodeType: InverterNode
+    position: {x: 551, y: 288}
+    actionNodeData:
+      act: 
+    conditionalNodeData:
+      condition: 
+      value: 0
+    repeaterNodeData:
+      repeatCount: 0
+  - GUID: 6b475d05-748f-40f0-86a7-8a65a0a7b74b
+    nodeType: ConditionalNode
+    position: {x: 549, y: 149}
+    actionNodeData:
+      act: 
+    conditionalNodeData:
+      condition: IsInRange
+      value: 1
+    repeaterNodeData:
+      repeatCount: 0
+  LinkDatas:
+  - SourceNodeGuid: a6b8614d-e80b-49fe-b359-e266bdc6b94f
+    PortName: Output
+    TargetNodeGuid: ccfccf93-00ac-4f0d-a771-17e9947e50c8
+  - SourceNodeGuid: ccfccf93-00ac-4f0d-a771-17e9947e50c8
+    PortName: 1
+    TargetNodeGuid: d49b377e-80a5-46a9-b9d0-9ead18419399
+  - SourceNodeGuid: ccfccf93-00ac-4f0d-a771-17e9947e50c8
+    PortName: 2
+    TargetNodeGuid: 87fde282-05db-4d67-817f-e9bc870cf9f0
+  - SourceNodeGuid: ccfccf93-00ac-4f0d-a771-17e9947e50c8
+    PortName: 3
+    TargetNodeGuid: 6b475d05-748f-40f0-86a7-8a65a0a7b74b
