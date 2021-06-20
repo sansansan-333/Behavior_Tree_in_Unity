@@ -13,9 +13,9 @@ https://edom18.hateblo.jp/entry/2017/08/28/104547
 4. It's time to execute the behavior tree. Create TreeExecuter instance by using "AddComponent()", not "new" keyword(because it uses coroutines).
     You should "AddComponent()" to the gameobject you want to apply your behavior tree.
     After that, call "Init()" of the instance with appropreate arguments you may have created.
-5. Call "Execute()" of the TreeExecuter in Update() or Start()(or Awake()). Your behavior tree will work here.
+5. Call "Execute()" of the TreeExecuter in Update() or Start()(or Awake()). Your behavior tree will work there.
 
-There is a example code in BehaviorTreeTest.cs. Please see it.
+There is an example code in BehaviorTreeTest.cs. Please see it.
 
 <Notice>
 -Changing enum names such as "Act.OutputLog -> Act.LogOut" may cause problems when a tree is loaded on editor window
